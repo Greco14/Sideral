@@ -1,0 +1,99 @@
+html, body {
+  margin: 0 auto;
+  min-width: 1000px;
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  font-family: sans-serif;
+  background-color: #e5e5e5; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
+  color: #6e6e6e;
+  text-decoration: none; }
+
+p {
+  margin: 0 auto; }
+
+sub {
+  font-size: 10px;
+  top: -8px;
+  position: relative;
+  color: #fff;
+  left: -3px; }
+
+h2, h3 {
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: left;
+  color: #363636; }
+
+h3 {
+  font-size: 20px; }
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+  color: #e73541;
+  font-style: normal;
+  font-weight: 700; }
+
+ul {
+  padding-left: 22px;
+  list-style: none; }
+
+ul li {
+  font-size: 13px;
+  line-height: 19px;
+  text-indent: -5px; }
+
+input {
+  outline: none;
+  border: none; }
+
+section {
+  width: 100%;
+  height: 360px;
+  position: relative;
+  padding-top: 25px; }
+
+.section-half {
+  width: 50%; }
+
+.section-third {
+  width: 33.3%; }
+
+.section-full {
+  width: 100%; }
+
+.autoalpha-0 {
+  opacity: 0;
+  visibility: hidden; }
+
+.align-center {
+  text-align: center; }
+
+.center-all,
+.center-horizontal,
+.center-vertical {
+  position: absolute;
+  margin: auto; }
+
+.center-all,
+.center-horizontal {
+  left: 0;
+  right: 0; }
+
+.center-all,
+.center-vertical {
+  top: 0;
+  bottom: 0; }
+
+.btn-borders {
+  border-radius: 5px; }
+
+#wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
