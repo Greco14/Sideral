@@ -119,6 +119,17 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/public\/css\/images\/home\/chilenitza-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76734,
+		"inputAbbreviatedPath": "\/public\/css\/images\/home\/chilenitza-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/css\/images\/home\/chilenitza-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1015,7 +1026,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/public"
 	},
 "settingsFileVersion": "2"
 }
