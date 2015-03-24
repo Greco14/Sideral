@@ -1,0 +1,49 @@
+.gridWrap
+	width: 1515px
+	height: 1550px
+	position: relative
+	margin: 0 auto
+	.holdGrid:nth-child(odd)
+		margin-right: 20px
+	.singleHold, .singleHolder, .dobleHold
+		position: relative
+		margin-bottom: 20px
+		height: 670px
+		float: left
+		margin-right: 0px
+	.singleHold, .singleHolder
+		width: 485px
+	.dobleHold
+		width: 1010px
+	.singleHolder
+		.singleHolds
+			width: 100%
+			height: 325px
+			position: relative
+			margin-bottom: 20px
+			margin-right: 0
+	.singleHold, .singleHolds, .dobleHold
+		.front, .hover, .fInerImg
+			width: 100%
+			height: 100%
+			position: absolute
+			top: 0
+			left: 0
+		.front
+			background-color: $black-hovers
+			.fInerImg
+				background-position: center
+				background-repeat: no-repeat
+		.hover
+			opacity: 0
+			overflow: hidden
+			.inerImg 
+				width: 110%
+				height: 110%
+				position: absolute
+				top: -5%
+				left: -5%
+				+is-cover()
+	#h2-home, #h7-home
+		margin-right: 0
+

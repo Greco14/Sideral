@@ -38,6 +38,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/style\/_gridHome.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/style\/_gridHome.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_gridHome.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/style\/_home.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -97,6 +113,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/development\/views\/includes\/home\/_grid.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/home\/_grid.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/home\/_grid.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/development\/views\/includes\/home\/_home.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -119,13 +146,244 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/public\/css\/images\/home\/chilenitza-hover.jpg": {
+	"\/development\/views\/mixins\/_gridItem.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/mixins\/_gridItem.jade",
+		"outputAbbreviatedPath": "\/development\/views\/mixins\/_gridItem.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/public\/assets\/images\/home\/123-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137117,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/123-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/123-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/123.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/123.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/123.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/bowker-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50695,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/bowker-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/bowker-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/bowker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/bowker.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/bowker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/chilenitza-hover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 76734,
-		"inputAbbreviatedPath": "\/public\/css\/images\/home\/chilenitza-hover.jpg",
-		"outputAbbreviatedPath": "\/public\/css\/images\/home\/chilenitza-hover.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/chilenitza-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/chilenitza-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/chilenitza.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7145,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/chilenitza.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/chilenitza.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/cover1-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17583,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/cover1-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/cover1-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/cover1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262358,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/cover1.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/cover1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/javon-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37021,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/javon-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/javon-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/javon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138220,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/javon.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/javon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/martha-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31419,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/martha-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/martha-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/martha.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263146,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/martha.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/martha.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/mexcalin-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65282,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/mexcalin-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/mexcalin-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/mexcalin-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65282,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/mexcalin-hover.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/mexcalin-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/mexcalin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/mexcalin.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/mexcalin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/nadir-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25464,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/nadir-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/nadir-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/nadir.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149318,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/nadir.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/nadir.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/scribe-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 335431,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/scribe-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/scribe-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/scribe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6588,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/scribe.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/scribe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/spoleta-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12713,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/spoleta-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/spoleta-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/spoleta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60093,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/spoleta.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/spoleta.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -135,15 +393,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

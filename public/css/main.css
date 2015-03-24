@@ -27,6 +27,56 @@
   height: 100%;
   position: relative; }
 
+.gridWrap {
+  width: 1515px;
+  height: 1550px;
+  position: relative;
+  margin: 0 auto; }
+  .gridWrap .holdGrid:nth-child(odd) {
+    margin-right: 20px; }
+  .gridWrap .singleHold, .gridWrap .singleHolder, .gridWrap .dobleHold {
+    position: relative;
+    margin-bottom: 20px;
+    height: 670px;
+    float: left;
+    margin-right: 0px; }
+  .gridWrap .singleHold, .gridWrap .singleHolder {
+    width: 485px; }
+  .gridWrap .dobleHold {
+    width: 1010px; }
+  .gridWrap .singleHolder .singleHolds {
+    width: 100%;
+    height: 325px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 0; }
+  .gridWrap .singleHold .front, .gridWrap .singleHold .hover, .gridWrap .singleHold .fInerImg, .gridWrap .singleHolds .front, .gridWrap .singleHolds .hover, .gridWrap .singleHolds .fInerImg, .gridWrap .dobleHold .front, .gridWrap .dobleHold .hover, .gridWrap .dobleHold .fInerImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .gridWrap .singleHold .front, .gridWrap .singleHolds .front, .gridWrap .dobleHold .front {
+    background-color: #171717; }
+    .gridWrap .singleHold .front .fInerImg, .gridWrap .singleHolds .front .fInerImg, .gridWrap .dobleHold .front .fInerImg {
+      background-position: center;
+      background-repeat: no-repeat; }
+  .gridWrap .singleHold .hover, .gridWrap .singleHolds .hover, .gridWrap .dobleHold .hover {
+    opacity: 0;
+    overflow: hidden; }
+    .gridWrap .singleHold .hover .inerImg, .gridWrap .singleHolds .hover .inerImg, .gridWrap .dobleHold .hover .inerImg {
+      width: 110%;
+      height: 110%;
+      position: absolute;
+      top: -5%;
+      left: -5%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+  .gridWrap #h2-home, .gridWrap #h7-home {
+    margin-right: 0; }
+
 html, body {
   margin: 0 auto;
   min-width: 1000px;

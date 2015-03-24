@@ -4,7 +4,13 @@ $gris-foter: #e1e1e1
 $black-nav: #040707
 $black: #000000
 
+$black-hovers: #171717
 
+@mixin is-cover()
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
 @mixin is-center()
 	margin: auto
 	position: absolute
@@ -12,6 +18,7 @@ $black: #000000
 	left: 0 
 	bottom: 0 
 	right: 0
+
 @mixin freeTransform($params)
 	transform: $params
 	-ms-transform: $params
