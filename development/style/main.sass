@@ -4,15 +4,19 @@
 @import "_home"
 @import "_gridHome"
 
+@import "_nav"
+@import "_footer"
 
-html,body
-  margin: 0 auto
-  min-width: 1000px
-  width: 100%
+
+body, html
+  height: 100%
   min-height: 800px
-  position: relative
+  width: 100%
+  margin: 0 auto
   font-family: 'book'
   background-color: $white
+  overflow-y: scroll
+  -webkit-overflow-scrolling: touch
   
 
 
@@ -35,7 +39,7 @@ sub
 
 
 h2,h3
-  font-size: 25px
+  font-size: 30px
   margin: 0 auto
   text-align: left
   color: $black
@@ -71,7 +75,9 @@ section
   position: relative
   padding-top: 25px
 
-
+.section-third,.section-half
+  float: left
+  position: relative
 .section-half
   width: 50%
 .section-third
@@ -116,11 +122,25 @@ section
   background-color: $black-nav
   h1
     color: $white
-
+.safe-in
+  width: 1515px
+  height: 100%
+  margin: 0 auto
 
 #wrapper
   width: 100%
   position: relative
   margin: 0 auto
   height: 100%
+@media (max-width: 1515px)
+  .safe-in
+    width: 95%
+
+@media (max-width: 1110px)
+  .safe-in
+    width: 95%
+
+@media (max-width: 640px)
+  .safe-in
+    width: 98%
   

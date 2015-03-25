@@ -26,12 +26,52 @@
   width: 100%;
   height: 100%;
   position: relative; }
+  #home .coverSection .box {
+    width: 670px;
+    height: 315px; }
+    #home .coverSection .box .lines {
+      position: absolute;
+      background-color: #ffffff; }
+      #home .coverSection .box .lines.topL, #home .coverSection .box .lines.bottomL {
+        width: 100%;
+        height: 15px;
+        left: 0; }
+      #home .coverSection .box .lines.leftL, #home .coverSection .box .lines.rightL {
+        height: 100%;
+        width: 15px;
+        top: 0; }
+      #home .coverSection .box .lines.topL {
+        top: 0; }
+      #home .coverSection .box .lines.bottomL {
+        bottom: 0; }
+      #home .coverSection .box .lines.leftL {
+        left: 0; }
+      #home .coverSection .box .lines.rightL {
+        right: 0; }
+    #home .coverSection .box .txt {
+      width: 405px;
+      height: 175px; }
+      #home .coverSection .box .txt h1 {
+        text-align: left; }
 
+@media (max-width: 1110px) {
+  #home .coverSection .box .txt h1 {
+    font-size: 28px; } }
+@media (max-width: 640px) {
+  #home .coverSection .box {
+    width: 420px;
+    height: 400px; }
+    #home .coverSection .box .txt {
+      width: 300px;
+      height: 150px; }
+      #home .coverSection .box .txt h1 {
+        font-size: 28px; } }
 .gridWrap {
   width: 1515px;
-  height: 1550px;
+  height: 4840px;
   position: relative;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 80px; }
   .gridWrap .holdGrid:nth-child(odd) {
     margin-right: 20px; }
   .gridWrap .singleHold, .gridWrap .singleHolder, .gridWrap .dobleHold {
@@ -73,18 +113,112 @@
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover; }
-  .gridWrap #h2-home, .gridWrap #h7-home {
+      background-size: cover;
+      background-position: center; }
+  .gridWrap #h2-home, .gridWrap #h7-home, .gridWrap #h12-home, .gridWrap #h17-home {
     margin-right: 0; }
 
-html, body {
-  margin: 0 auto;
-  min-width: 1000px;
+@media (max-width: 1515px) {
+  .gridWrap {
+    width: 95%; }
+    .gridWrap .holdGrid:nth-child(odd) {
+      margin-right: 1%; }
+    .gridWrap .singleHold, .gridWrap .singleHolder {
+      width: 33%; }
+    .gridWrap .dobleHold {
+      width: 66%; } }
+@media (max-width: 1110px) {
+  .gridWrap {
+    width: 95%;
+    height: 8630px; }
+    .gridWrap .holdGrid {
+      margin-right: 0%; }
+    .gridWrap .dobleHold, .gridWrap .singleHold, .gridWrap .singleHolder {
+      width: 100%; }
+    .gridWrap .singleHolder {
+      height: 325px; }
+      .gridWrap .singleHolder .singleHolds {
+        width: 49%;
+        float: left;
+        margin-bottom: 0; }
+    .gridWrap #h5, .gridWrap #h10, .gridWrap #h15 {
+      margin-right: 0; } }
+@media (max-width: 640px) {
+  .gridWrap {
+    width: 98%;
+    height: 9600px; }
+    .gridWrap .holdGrid {
+      margin-right: 0%; }
+    .gridWrap .dobleHold, .gridWrap .singleHold, .gridWrap .singleHolder {
+      width: 100%; }
+    .gridWrap .singleHolder {
+      height: 670px;
+      margin-bottom: 20px; }
+      .gridWrap .singleHolder .singleHolds {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+        margin-right: 0; } }
+#topNav {
   width: 100%;
-  min-height: 800px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 10; }
+  #topNav .leftSide, #topNav .rightSide {
+    width: 210px;
+    height: 20px;
+    padding-top: 25px;
+    position: absolute;
+    top: 0; }
+    #topNav .leftSide a, #topNav .rightSide a {
+      float: left;
+      font-size: 12px;
+      position: relative;
+      font-family: "bold"; }
+      #topNav .leftSide a:nth-child(1), #topNav .rightSide a:nth-child(1) {
+        margin-right: 30px; }
+  #topNav .leftSide {
+    width: 220px;
+    left: 0;
+    margin-left: 20px; }
+  #topNav .rightSide {
+    right: 0; }
+  #topNav .centerSide {
+    width: 300px;
+    height: 43px; }
+    #topNav .centerSide h2 {
+      text-align: center;
+      font-family: "bold";
+      color: #040707; }
+      #topNav .centerSide h2 span {
+        color: #606162; }
+
+#footer {
+  width: 100%;
+  height: 120px;
   position: relative;
+  background-color: #e1e1e1;
+  padding-top: 30px;
+  font-size: 12px; }
+  #footer .section-third p {
+    font-size: 12px; }
+  #footer .section-third.cTa {
+    text-align: center; }
+  #footer .section-third.rTa {
+    text-align: right; }
+
+body, html {
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  margin: 0 auto;
   font-family: "book";
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
   color: #040707;
@@ -101,7 +235,7 @@ sub {
   left: -3px; }
 
 h2, h3 {
-  font-size: 25px;
+  font-size: 30px;
   margin: 0 auto;
   text-align: left;
   color: #000000; }
@@ -135,6 +269,10 @@ section {
   height: 360px;
   position: relative;
   padding-top: 25px; }
+
+.section-third, .section-half {
+  float: left;
+  position: relative; }
 
 .section-half {
   width: 50%; }
@@ -180,8 +318,23 @@ section {
   .coverSection h1 {
     color: #ffffff; }
 
+.safe-in {
+  width: 1515px;
+  height: 100%;
+  margin: 0 auto; }
+
 #wrapper {
   width: 100%;
   position: relative;
   margin: 0 auto;
   height: 100%; }
+
+@media (max-width: 1515px) {
+  .safe-in {
+    width: 95%; } }
+@media (max-width: 1110px) {
+  .safe-in {
+    width: 95%; } }
+@media (max-width: 640px) {
+  .safe-in {
+    width: 98%; } }

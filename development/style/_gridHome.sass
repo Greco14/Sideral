@@ -1,8 +1,9 @@
 .gridWrap
 	width: 1515px
-	height: 1550px
+	height: 4840px
 	position: relative
 	margin: 0 auto
+	padding-top: 80px
 	.holdGrid:nth-child(odd)
 		margin-right: 20px
 	.singleHold, .singleHolder, .dobleHold
@@ -44,6 +45,56 @@
 				top: -5%
 				left: -5%
 				+is-cover()
-	#h2-home, #h7-home
+				background-position: center
+	#h2-home, #h7-home, #h12-home, #h17-home
 		margin-right: 0
+
+@media (max-width: 1515px)
+	.gridWrap
+		width: 95%
+		.holdGrid:nth-child(odd)
+			margin-right: 1%
+		.singleHold, .singleHolder
+			width: 33%
+		.dobleHold
+			width: 66%
+@media (max-width: 1110px)
+	.gridWrap
+		width: 95%
+		height: 8630px
+		.holdGrid
+			margin-right: 0%
+		.dobleHold, .singleHold, .singleHolder
+			width: 100%
+		.singleHolder
+			height: 325px
+			.singleHolds
+				width: 49%
+				float: left
+				margin-bottom: 0
+		#h5, #h10, #h15
+			margin-right: 0
+@media (max-width: 640px)
+	.gridWrap
+		width: 98%
+		height: 9600px
+		.holdGrid
+			margin-right: 0%
+		.dobleHold, .singleHold, .singleHolder
+			width: 100%
+		.singleHolder
+			height: 670px
+			margin-bottom: 20px
+			.singleHolds
+				width: 100%
+				float: left
+				margin-bottom: 20px
+				margin-right: 0
+
+
+
+
+
+
+
 

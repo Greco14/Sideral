@@ -11,12 +11,45 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/development\/scripts\/gui\/_hoversGrid.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_hoversGrid.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_hoversGrid-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/development\/scripts\/gui\/_nav.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_nav.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_nav-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/development\/scripts\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/scripts\/main.js",
 		"outputAbbreviatedPath": "\/public\/scripts\/main.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/development\/scripts\/vendor\/vendor.bundle.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/vendor\/vendor.bundle.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/vendor.bundle-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
@@ -31,6 +64,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/style\/_fonts.sass",
 		"outputAbbreviatedPath": "\/development\/css\/_fonts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/development\/style\/_footer.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/style\/_footer.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -70,6 +119,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/style\/_nav.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/style\/_nav.sass",
+		"outputAbbreviatedPath": "\/development\/css\/_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/development\/style\/_vars.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -102,6 +167,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/views\/includes\/_footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/_footer.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/_footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/development\/views\/includes\/_head.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -109,6 +185,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/development\/views\/includes\/_head.jade",
 		"outputAbbreviatedPath": "\/development\/views\/includes\/_head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/_nav.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/_nav.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/_nav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/_scripts.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/_scripts.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/_scripts.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -175,6 +273,28 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/123.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/123.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/alebrije-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40380,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/alebrije-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/alebrije-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/alebrije.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128102,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/alebrije.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/alebrije.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -344,6 +464,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/home\/nike-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44695,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/nike-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/nike-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/nike.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2967,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/nike.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/nike.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/performance-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119216,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/performance-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/performance-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/performance.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/performance.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/performance.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/images\/home\/scribe-hover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -362,6 +526,28 @@
 		"initialSize": 6588,
 		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/scribe.png",
 		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/scribe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/shirt-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57159,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/shirt-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/shirt-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/shirt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/shirt.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/shirt.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -388,6 +574,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/images\/home\/trixi-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77533,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/trixi-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/trixi-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/trixi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/trixi.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/trixi.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/xagu-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61383,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/xagu-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/xagu-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/xagu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.18326e+06,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/xagu.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/xagu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/yuma-hover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36704,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/yuma-hover.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/yuma-hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/assets\/images\/home\/yuma.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/assets\/images\/home\/yuma.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/home\/yuma.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -397,56 +649,78 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/vendor\/jquery-2.1.1.min.js": {
+	"\/public\/scripts\/main.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/vendor\/jquery-2.1.1.min.js",
-		"outputAbbreviatedPath": "\/public\/vendor\/min\/jquery-2.1.1.min-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/main.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/public\/vendor\/jquery.easing.1.3.js": {
+	"\/public\/scripts\/vendor\/jquery-2.1.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/vendor\/jquery.easing.1.3.js",
-		"outputAbbreviatedPath": "\/public\/vendor\/min\/jquery.easing.1.3-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/jquery-2.1.1.min.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/jquery-2.1.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/public\/vendor\/modernizr.custom.25133.js": {
+	"\/public\/scripts\/vendor\/jquery.easing.1.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/vendor\/modernizr.custom.25133.js",
-		"outputAbbreviatedPath": "\/public\/vendor\/min\/modernizr.custom.25133-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/jquery.easing.1.3.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/jquery.easing.1.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/public\/vendor\/TweenMax.min.js": {
+	"\/public\/scripts\/vendor\/modernizr.custom.25133.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/vendor\/TweenMax.min.js",
-		"outputAbbreviatedPath": "\/public\/vendor\/min\/TweenMax.min-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/modernizr.custom.25133.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/modernizr.custom.25133-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/public\/vendor\/vendor.bundle-min.js": {
+	"\/public\/scripts\/vendor\/TweenMax.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/vendor\/vendor.bundle-min.js",
-		"outputAbbreviatedPath": "\/public\/vendor\/min\/vendor.bundle-min-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/TweenMax.min.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/TweenMax.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/scripts\/vendor\/vendor.bundle-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/vendor.bundle-min.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/vendor.bundle-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/scripts\/vendor\/vendor.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/vendor.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/vendor-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

@@ -1,0 +1,36 @@
+#topNav
+	width: 100%
+	height: 80px
+	position: absolute
+	top: 0
+	left: 0
+	background-color: $white
+	z-index: 10
+	.leftSide, .rightSide
+		width: 210px
+		height: 20px
+		padding-top: 25px
+		position: absolute
+		top: 0
+		a 
+			float: left
+			font-size: 12px
+			position: relative
+			font-family: 'bold'
+			&:nth-child(1)
+				margin-right: 30px
+	.leftSide
+		width: 220px
+		left: 0
+		margin-left: 20px
+	.rightSide
+		right: 0
+	.centerSide
+		width: 300px
+		height: 43px
+		h2 
+			text-align: center
+			font-family: 'bold'
+			color: $black-nav
+			span
+				color: $grey-nav
