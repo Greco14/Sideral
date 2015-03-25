@@ -5,6 +5,8 @@ Main = {
         hoverGrid.init();
         nav = new Nav();
         nav.init();
+        cover = new Cover();
+        cover.init();
     },
 };
 $(function(){

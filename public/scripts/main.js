@@ -1,1 +1,1 @@
-Main={init:function(i){hoverGrid=new HoverGrid,hoverGrid.init(),nav=new Nav,nav.init()}},$(function(){Main.init()});
+Main={init:function(i){hoverGrid=new HoverGrid,hoverGrid.init(),nav=new Nav,nav.init(),cover=new Cover,cover.init()}},$(function(){Main.init()});

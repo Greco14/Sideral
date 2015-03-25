@@ -33,24 +33,28 @@
       position: absolute;
       background-color: #ffffff; }
       #home .coverSection .box .lines.topL, #home .coverSection .box .lines.bottomL {
-        width: 100%;
-        height: 15px;
-        left: 0; }
+        width: 0%;
+        height: 15px; }
       #home .coverSection .box .lines.leftL, #home .coverSection .box .lines.rightL {
-        height: 100%;
-        width: 15px;
-        top: 0; }
+        height: 0%;
+        width: 15px; }
       #home .coverSection .box .lines.topL {
-        top: 0; }
-      #home .coverSection .box .lines.bottomL {
-        bottom: 0; }
-      #home .coverSection .box .lines.leftL {
+        top: 0;
         left: 0; }
-      #home .coverSection .box .lines.rightL {
+      #home .coverSection .box .lines.bottomL {
+        bottom: 0;
         right: 0; }
+      #home .coverSection .box .lines.leftL {
+        left: 0;
+        bottom: 0; }
+      #home .coverSection .box .lines.rightL {
+        right: 0;
+        top: 0; }
     #home .coverSection .box .txt {
       width: 405px;
-      height: 175px; }
+      height: 175px;
+      top: 50px;
+      opacity: 0; }
       #home .coverSection .box .txt h1 {
         text-align: left; }
 
