@@ -19,7 +19,6 @@ Nav.prototype.bind = function(){
 	$('body').scroll(function(event) {
        
        var gridTop = s.gridTop.offset().top;
-        console.log(gridTop);
         if(gridTop > 0){
         	s.naver.css({position:'absolute'});
         }

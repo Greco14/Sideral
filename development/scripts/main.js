@@ -10,6 +10,5 @@ Main = {
     },
 };
 $(function(){
-	Main.init();
-	
+	Main.init();	
 });
