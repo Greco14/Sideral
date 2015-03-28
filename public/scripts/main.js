@@ -1,1 +1,1 @@
-Main={init:function(i){hoverGrid=new HoverGrid,hoverGrid.init(),nav=new Nav,nav.init(),cover=new Cover,cover.init()}},$(function(){Main.init()});
+Main={init:function(i){hoverGrid=new HoverGrid,hoverGrid.init(),nav=new Nav,nav.init(),cover=new Cover,cover.init()}},$(function(){Main.init(),$.ajax({url:"scripts/config/galleries.json",type:"GET"}).done(function(i){var n=i.galleries[0];console.log(n.id)})});

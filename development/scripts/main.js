@@ -10,5 +10,13 @@ Main = {
     },
 };
 $(function(){
-	Main.init();	
+	Main.init();
+
+	$.ajax({
+	  url: "scripts/config/galleries.json",
+	  type: 'GET',
+	}).done(function(data) {
+		var gallery = data.galleries[0];
+	  console.log(gallery.id);
+	});	
 });

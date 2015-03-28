@@ -34,3 +34,69 @@
 			color: $black-nav
 			span
 				color: $grey-nav
+#navMobile
+	width: 100%
+	height: 100%
+	position: fixed
+	top: 0
+	left: 0
+	z-index: 11
+	background-color: rgba(0,0,0, 0.5)
+	display: none
+	.hold
+		width: 90%
+		height: 100%
+		padding-top: 10%
+		position: absolute
+		top: 0
+		right: 0
+		background-color: $white
+		a 
+			width: 100%
+			height: 40px
+			padding-top: 30px
+			padding-bottom: 30px
+			text-align: center
+			font-size: 35px
+			position: relative
+			display: block
+			border-bottom: 1px solid $grey-footer
+			&:active
+				background-color: $grey-footer
+
+@media (max-width: 1110px)
+	#topNav
+		.leftSide, .rightSide
+			display: none
+		.centerSide
+			left: -60%
+		.mobileIcon
+			width: 60px
+			height: 50px
+			padding: 15px
+			position: absolute
+			top: 0 
+			right: 15px
+			.line
+				width: 100%
+				height: 10px
+				background-color: $black
+				position: relative
+				&.isC
+					margin-top: 10px
+					margin-bottom: 10px
+@media (max-width: 640px)
+	#topNav
+		.leftSide, .rightSide
+			display: none
+		.centerSide
+			left: -45%
+
+
+
+
+
+
+
+
+
