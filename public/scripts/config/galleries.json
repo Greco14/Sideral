@@ -1,30 +1,82 @@
-{"galleries": [
-	{ 	"id": 1, 
-		"title": "Galería 1", 
-		"Autor": "Ac Berkheimer", 
-		"client": "LP Hoesontwerp", 
-		"description": "This is a description",
-		"autor": "Ac Berker / Isabelle Boon", 
-		"gallery": [
-			{
-				"id": 1,
-				"type": "single",
-				"location": "assets/images/home/img.jpg"
-			},
-			{
-				"id": 2,
-				"type": "doble",
-				"location": "assets/images/home/img.jpg"
-			},
-			{
-				"id": 3,
-				"type": "doble",
-				"location": "assets/images/home/img.jpg"
-			},
-			{
-				"id": 4,
-				"type": "single",
-				"location": "assets/images/home/img.jpg"
-			}
-	]}
-]}
+{"galleries": 
+	[
+		{	"id": 1, 
+			"title": "Galería 1", 
+			"Autor": "Ac Berkheimer", 
+			"client": "LP Hoesontwerp", 
+			"description": "This is a description",
+			"autor": "Ac Berker / Isabelle Boon", 
+			"gallery": [
+				{
+					"id": 1,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				},
+				{
+					"id": 2,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				},
+				{
+					"id": 3,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				},
+				{
+					"id": 4,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				},
+				{
+					"id": 5,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				}
+			]
+		},
+		{	"id": 2, 
+			"title": "Galería 1", 
+			"Autor": "Ac Berkheimer", 
+			"client": "LP Hoesontwerp", 
+			"description": "This is a description",
+			"autor": "Ac Berker / Isabelle Boon", 
+			"gallery": [
+				{
+					"id": 1,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				},
+				{
+					"id": 2,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				},
+				{
+					"id": 3,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				},
+				{
+					"id": 4,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				},
+				{
+					"id": 5,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "black"
+				}
+			]
+		}
+	]
+}

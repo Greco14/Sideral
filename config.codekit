@@ -22,6 +22,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/development\/scripts\/gui\/_galleryLoad.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_galleryLoad.js",
+		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_galleryLoad-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/development\/scripts\/gui\/_hoversGrid.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -669,15 +680,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/scripts\/main.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -728,6 +730,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/jquery-2.1.1.min.js",
 		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/jquery-2.1.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/scripts\/vendor\/jquery-address.1.6.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/jquery-address.1.6.min.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/jquery-address.1.6.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
