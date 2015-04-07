@@ -14,5 +14,4 @@ Main = {
 $(function(){
 	Main.init();
 
-	
 });
