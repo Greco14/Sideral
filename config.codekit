@@ -255,6 +255,39 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/development\/views\/includes\/projects\/_cover.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/projects\/_cover.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/projects\/_cover.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/projects\/_grid.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/projects\/_grid.jade",
+		"outputAbbreviatedPath": "\/development\/views\/includes\/projects\/_grid.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/development\/views\/includes\/projects\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/views\/includes\/projects\/index.jade",
+		"outputAbbreviatedPath": "\/public\/projects\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/development\/views\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
