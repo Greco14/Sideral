@@ -1,7 +1,7 @@
 mixin grid_item(params)
 	case params.type
 		when 'single'
-			a(href="#")
+			a(href="projects#gallery_#{params.cual}")
 				.singleHold.holdGrid(id="#{params.id}-home")
 					.front
 						.fInerImg(style="background-image:url('assets/images/home/#{params.nameImg}.png')")
@@ -10,7 +10,7 @@ mixin grid_item(params)
 
 			//- mixin grid_itemS(params)
 		when 'single2'
-			a(href="#")
+			a(href="projects#gallery_#{params.cual}")
 				.singleHolds.holdGrid(id="#{params.id}-home")
 					.front
 						.fInerImg(style="background-image:url('assets/images/home/#{params.nameImg}.png')")
@@ -19,9 +19,30 @@ mixin grid_item(params)
 
 			//- mixin grid_itemD(params)
 		when 'doble'
-			a(href="#")
+			a(href="projects#gallery_#{params.cual}")
 				.dobleHold.holdGrid(id="#{params.id}-home")
 					.front
 						.fInerImg(style="background-image:url('assets/images/home/#{params.nameImg}.png')")
 					.hover(id="#{params.id}-home-hover")
 						.inerImg(style="background-image:url('assets/images/home/#{params.nameImgH}.jpg')")
+
+mixin grid_item_proyect(params)
+	case params.type
+		when 'single'
+			.singleHold.holdGrid(id="#{params.id}-home")
+				.front
+					.fInerImg(style="background-image:url('assets/images/home/#{params.nameImg}.png')")
+					
+
+			//- mixin grid_itemS(params)
+		when 'single2'
+			.singleHolds.holdGrid(id="#{params.id}-home")
+				.front
+					.fInerImg(style="background-image:url('assets/images/home/#{params.nameImg}.png')")
+				
+
+			//- mixin grid_itemD(params)
+		when 'doble'
+			.dobleHold.holdGrid(id="#{params.id}-home")
+				.front
+					.fInerImg(style="background-image:url('assets/images/home/#{params.nameImg}.png')")

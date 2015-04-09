@@ -1,6 +1,6 @@
 GalleryLoad = function(){
 	this.settings = {
-
+    wrapGrid: $('.wrapGrid')
 	};
 
 };
@@ -53,12 +53,29 @@ GalleryLoad.prototype.callingAjax = function(galleryId){
 	var self = this,
 		s = self.settings;
 	console.log(galleryId);
+  var id = galleryId-1;
 	$.ajax({
 		url: "scripts/config/galleries.json",
 		type: 'GET',
 	}).done(function(data) {
-		var gallery = data.galleries[galleryId];
-		console.log(gallery);
+		var gallery = data.galleries[id];
+		console.log(gallery.gallery);
+    var gal = gallery.gallery;
+    s.wrapGrid.html(' ');
+     $.each(gal, function(index, data){
+
+      if(gal.id == 1 || gal.id == 2 || gal.id == 6){
+        console.log('this are dobles '+gal.id);
+      }
+      if(gal.id == 3 && gal.id == 4 ){
+        console.log('this are singles In '+gal.id);
+      }
+      
+      
+     });
+     // $.map(gal, function(num){
+     //    console.log(num.id);
+     //  });
 	});	
 };
 

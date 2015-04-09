@@ -11,31 +11,37 @@
 					"id": 1,
 					"type": "single",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "black",
+					"redering": "<div id='h1-home' class='singleHold holdGrid'><div class='front'><div style='background-image:url('assets/images/home/chilenitza.png')' class='fInerImg'></div></div></div>"
 				},
 				{
 					"id": 2,
 					"type": "doble",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "black",
+					"redering": "<div id='h2-home' class='dobleHold holdGrid'><div class='front'><div style='background-image:url('assets/images/home/chilenitza.png')' class='fInerImg'></div></div></div>"
 				},
 				{
 					"id": 3,
 					"type": "doble",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "black",
+					"redering": "<div id='h3-home' class='dobleHold holdGrid'><div class='front'><div style='background-image:url('assets/images/home/chilenitza.png')' class='fInerImg'></div></div></div>"
+
 				},
 				{
 					"id": 4,
 					"type": "single",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "black",
+					"redering": "<div class='singleHolder'><div id='h4-home' class='singleHolds holdGrid'><div class='front'><div style='background-image:url('assets/images/home/cover1.png')' class='fInerImg'></div></div></div><div id='h5-home' class='singleHolds holdGrid'><div class='front'><div style='background-image:url('assets/images/home/nadir.png')' class='fInerImg'></div></div></div></div>"
 				},
 				{
 					"id": 5,
 					"type": "single",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "black",
+					"redering": "<div id='h5-home' class='singleHold holdGrid'><div class='front'><div style='background-image:url('assets/images/home/chilenitza.png')' class='fInerImg'></div></div></div>"
 				}
 			]
 		},
