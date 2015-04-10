@@ -2,8 +2,8 @@
 	[
 		{	"id": 1, 
 			"title": "Galería 1", 
-			"Autor": "Ac Berkheimer", 
 			"client": "LP Hoesontwerp", 
+			"category": "Category: Identity & Web",
 			"description": "This is a description",
 			"autor": "Ac Berker / Isabelle Boon", 
 			"gallery": [
@@ -11,44 +11,49 @@
 					"id": 1,
 					"type": "single",
 					"location": "assets/images/home/img.jpg",
-					"color": "black",
-					"redering": "<div id='h1-home' class='singleHold holdGrid'><div class='front'><div style='background-image:url('assets/images/home/chilenitza.png')' class='fInerImg'></div></div></div>"
+					"color": "black"
 				},
 				{
 					"id": 2,
 					"type": "doble",
 					"location": "assets/images/home/img.jpg",
-					"color": "black",
-					"redering": "<div id='h2-home' class='dobleHold holdGrid'><div class='front'><div style='background-image:url('assets/images/home/chilenitza.png')' class='fInerImg'></div></div></div>"
+					"color": "black"
 				},
 				{
 					"id": 3,
 					"type": "doble",
 					"location": "assets/images/home/img.jpg",
-					"color": "black",
-					"redering": "<div id='h3-home' class='dobleHold holdGrid'><div class='front'><div style='background-image:url('assets/images/home/chilenitza.png')' class='fInerImg'></div></div></div>"
+					"color": "black"
 
 				},
 				{
 					"id": 4,
-					"type": "single",
+					"type": "complex",
 					"location": "assets/images/home/img.jpg",
-					"color": "black",
-					"redering": "<div class='singleHolder'><div id='h4-home' class='singleHolds holdGrid'><div class='front'><div style='background-image:url('assets/images/home/cover1.png')' class='fInerImg'></div></div></div><div id='h5-home' class='singleHolds holdGrid'><div class='front'><div style='background-image:url('assets/images/home/nadir.png')' class='fInerImg'></div></div></div></div>"
+					"inerImages":[
+						{
+							"id": 4,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id":5,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "black"
 				},
 				{
-					"id": 5,
+					"id": 6,
 					"type": "single",
 					"location": "assets/images/home/img.jpg",
-					"color": "black",
-					"redering": "<div id='h5-home' class='singleHold holdGrid'><div class='front'><div style='background-image:url('assets/images/home/chilenitza.png')' class='fInerImg'></div></div></div>"
+					"color": "black"				
 				}
 			]
 		},
 		{	"id": 2, 
-			"title": "Galería 1", 
-			"Autor": "Ac Berkheimer", 
+			"title": "Galería 2",  
 			"client": "LP Hoesontwerp", 
+			"category": "Category: Identity & Web",
 			"description": "This is a description",
 			"autor": "Ac Berker / Isabelle Boon", 
 			"gallery": [
@@ -56,31 +61,42 @@
 					"id": 1,
 					"type": "single",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "yellow"
 				},
 				{
 					"id": 2,
 					"type": "doble",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "yellow"
 				},
 				{
 					"id": 3,
 					"type": "doble",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "yellow"
+
 				},
 				{
 					"id": 4,
-					"type": "single",
+					"type": "complex",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"inerImages":[
+						{
+							"id": 4,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id":5,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "yellow"
 				},
 				{
-					"id": 5,
+					"id": 6,
 					"type": "single",
 					"location": "assets/images/home/img.jpg",
-					"color": "black"
+					"color": "yellow"				
 				}
 			]
 		}

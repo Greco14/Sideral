@@ -1,6 +1,9 @@
 GalleryLoad = function(){
 	this.settings = {
-    wrapGrid: $('.wrapGrid')
+    wrapGrid: $('.wrapGrid'),
+    infoGal: $('.section-half'),
+    mainInfo: $('.fistHalf'),
+    sndInfo: $('.secondHalf'),
 	};
 
 };
@@ -52,31 +55,88 @@ GalleryLoad.prototype.loading = function(){
 GalleryLoad.prototype.callingAjax = function(galleryId){
 	var self = this,
 		s = self.settings;
-	console.log(galleryId);
+	
   var id = galleryId-1;
 	$.ajax({
 		url: "scripts/config/galleries.json",
 		type: 'GET',
 	}).done(function(data) {
-		var gallery = data.galleries[id];
-		console.log(gallery.gallery);
-    var gal = gallery.gallery;
-    s.wrapGrid.html(' ');
-     $.each(gal, function(index, data){
 
-      if(gal.id == 1 || gal.id == 2 || gal.id == 6){
-        console.log('this are dobles '+gal.id);
+		var gallery = data.galleries[id];
+    var gal = gallery.gallery;
+    var title = gallery.title;
+    var client = gallery.client;
+    var category = gallery.category;
+    var description = gallery.description;
+    var autor = gallery.autor;
+    var aut = autor.split('/');
+
+
+    s.wrapGrid.html(' ');
+    s.infoGal.html(' ');
+
+    var titulo = '<div class="titles"><span>'+title+'</span><br>'+client+'</div>';
+    var categoria = '<div class="category">'+category+'</div>';
+    var descripcion = '<div class="description">'+description+'</div>';
+    var autord = '<div class="autors"><span>'+aut[0]+'</span>/<span>'+aut[1]+'</span></div>';
+
+
+    s.mainInfo.append(titulo+categoria);
+    s.sndInfo.append(descripcion+autord);
+
+
+
+     $.each(gal, function(index, data){
+      var type = data.type;
+      var color = data.color;
+      var items = [];
+      var fill;
+
+      if(type == 'single'){
+        // console.log('singles: '+ data.id +' '+data.location);
+        fill = '<div id="h'+data.id +'-home" class="singleHold holdGrid" >'+
+            '<div class="front" style="background-color:'+color+'">'+
+              '<div style="background-image:url('+data.location+')" class="fInerImg"></div>'+
+            '</div>'+
+          '</div>';
+          items.push(fill);
       }
-      if(gal.id == 3 && gal.id == 4 ){
-        console.log('this are singles In '+gal.id);
+      if(type == 'doble'){
+        // console.log('singles: '+ data.id +' '+data.location);
+        fill = '<div id="h'+data.id +'-home" class="dobleHold holdGrid">'+
+            '<div class="front" style="background-color:'+color+'">'+
+              '<div style="background-image:url('+data.location+')" class="fInerImg"></div>'+
+            '</div>'+
+          '</div>';
+          items.push(fill);
+        
       }
+      if(type == 'complex'){
+        // console.log('singles: '+ data.id +' '+data.inerImages[0].location+' '+data.inerImages[1].location);
+        fill = '<div class="singleHolder">'+
+                  '<div id="h'+data.inerImages[0].id +'-home" class="singleHolds holdGrid" ">'+
+                    '<div class="front" style="background-color:'+color+'">'+
+                      '<div style="background-image:url('+data.inerImages[0].location+')" class="fInerImg"></div>'+
+                    '</div>'+
+                  '</div>'+
+                  '<div id="h'+data.inerImages[1].id +'-home" class="singleHolds holdGrid" >'+
+                    '<div class="front" style="background-color:'+color+'">'+
+                      '<div style="background-image:url('+data.inerImages[1].location+')" class="fInerImg"></div>'+
+                    '</div>'+
+                  '</div>'+
+          '</div>';
+          items.push(fill);
+      }
+
+      s.wrapGrid.append(items);
       
       
      });
-     // $.map(gal, function(num){
-     //    console.log(num.id);
-     //  });
+     
 	});	
+};
+GalleryLoad.prototype.filler = function(){
+
 };
 
 
