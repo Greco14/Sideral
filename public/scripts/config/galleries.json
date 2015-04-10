@@ -342,6 +342,266 @@
 					"color": "yellow"
 				}
 			]
+		},
+		{	"id": 5, 
+			"title": "Bowker", 
+			"client": "LP Hoesontwerp", 
+			"category": "Category: Identity & Web",
+			"description": "This is a description",
+			"autor": "Ac Berker / Isabelle Boon", 
+			"gallery": [
+				{
+					"id": 1,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "blue"
+				},
+				{
+					"id": 2,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "blue"
+				},
+				{
+					"id": 3,
+					"type": "complex",
+					"location": "assets/images/home/img.jpg",
+					"inerImages":[
+						{
+							"id": 3,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id": 4,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "blue"
+				},
+				{
+					"id": 5,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "blue"
+				},
+				{
+					"id": 6,
+					"type": "complex",
+					"location": "assets/images/home/img.jpg",
+					"inerImages":[
+						{
+							"id": 6,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id": 7,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "blue"
+				},
+				{
+					"id": 8,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "blue"
+				}
+			]
+		},
+		{	"id": 6, 
+			"title": "Contador", 
+			"client": "LP Hoesontwerp", 
+			"category": "Category: Identity & Web",
+			"description": "This is a description",
+			"autor": "Ac Berker / Isabelle Boon", 
+			"gallery": [
+				{
+					"id": 1,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "yellow"
+				},
+				{
+					"id": 2,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "yellow"
+				},
+				{
+					"id": 4,
+					"type": "complex",
+					"location": "assets/images/home/img.jpg",
+					"inerImages":[
+						{
+							"id": 3,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id": 4,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "yellow"
+				},
+				{
+					"id": 5,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "yellow"
+				},
+				{
+					"id": 6,
+					"type": "complex",
+					"location": "assets/images/home/img.jpg",
+					"inerImages":[
+						{
+							"id": 6,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id": 7,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "yellow"
+				},
+				{
+					"id": 8,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "yellow"
+				}
+			]
+		},
+		{	"id": 7, 
+			"title": "Bowker", 
+			"client": "LP Hoesontwerp", 
+			"category": "Category: Identity & Web",
+			"description": "This is a description",
+			"autor": "Ac Berker / Isabelle Boon", 
+			"gallery": [
+				{
+					"id": 1,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "blue"
+				},
+				{
+					"id": 2,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "blue"
+				},
+				{
+					"id": 3,
+					"type": "complex",
+					"location": "assets/images/home/img.jpg",
+					"inerImages":[
+						{
+							"id": 3,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id": 4,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "blue"
+				},
+				{
+					"id": 5,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "blue"
+				},
+				{
+					"id": 6,
+					"type": "complex",
+					"location": "assets/images/home/img.jpg",
+					"inerImages":[
+						{
+							"id": 6,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id": 7,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "blue"
+				},
+				{
+					"id": 8,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "blue"
+				}
+			]
+		},
+		{	"id": 8, 
+			"title": "Contador", 
+			"client": "LP Hoesontwerp", 
+			"category": "Category: Identity & Web",
+			"description": "This is a description",
+			"autor": "Ac Berker / Isabelle Boon", 
+			"gallery": [
+				{
+					"id": 1,
+					"type": "single",
+					"location": "assets/images/home/img.jpg",
+					"color": "yellow"
+				},
+				{
+					"id": 2,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "yellow"
+				},
+				{
+					"id": 4,
+					"type": "complex",
+					"location": "assets/images/home/img.jpg",
+					"inerImages":[
+						{
+							"id": 3,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id": 4,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "yellow"
+				},
+				{
+					"id": 5,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "yellow"
+				},
+				{
+					"id": 6,
+					"type": "complex",
+					"location": "assets/images/home/img.jpg",
+					"inerImages":[
+						{
+							"id": 6,
+							"location": "assets/images/home/img.jpg"
+						},
+						{
+							"id": 7,
+							"location": "assets/images/home/img.jpg"
+						}
+					],
+					"color": "yellow"
+				},
+				{
+					"id": 8,
+					"type": "doble",
+					"location": "assets/images/home/img.jpg",
+					"color": "yellow"
+				}
+			]
 		}
 	]
 }
