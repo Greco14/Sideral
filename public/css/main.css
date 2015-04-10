@@ -93,37 +93,40 @@
   padding-top: 80px; }
   .gridWrap .holdGrid:nth-child(odd) {
     margin-right: 20px; }
-  .gridWrap .singleHold, .gridWrap .singleHolder, .gridWrap .dobleHold {
+  .gridWrap .singleHold, .gridWrap .singleHolder, .gridWrap .dobleHold, .gridWrap .fullHold {
     position: relative;
     margin-bottom: 20px;
     height: 670px;
     float: left;
     margin-right: 0px; }
-  .gridWrap .singleHold, .gridWrap .singleHolder {
+  .gridWrap .singleHold, .gridWrap .singleHolder, .gridWrap .fullHold {
     width: 485px; }
   .gridWrap .dobleHold {
     width: 1010px; }
+  .gridWrap .fullHold {
+    width: 100%;
+    margin-right: 0; }
   .gridWrap .singleHolder .singleHolds {
     width: 100%;
     height: 325px;
     position: relative;
     margin-bottom: 20px;
     margin-right: 0; }
-  .gridWrap .singleHold .front, .gridWrap .singleHold .hover, .gridWrap .singleHold .fInerImg, .gridWrap .singleHolds .front, .gridWrap .singleHolds .hover, .gridWrap .singleHolds .fInerImg, .gridWrap .dobleHold .front, .gridWrap .dobleHold .hover, .gridWrap .dobleHold .fInerImg {
+  .gridWrap .singleHold .front, .gridWrap .singleHold .hover, .gridWrap .singleHold .fInerImg, .gridWrap .singleHolds .front, .gridWrap .singleHolds .hover, .gridWrap .singleHolds .fInerImg, .gridWrap .dobleHold .front, .gridWrap .dobleHold .hover, .gridWrap .dobleHold .fInerImg, .gridWrap .fullHold .front, .gridWrap .fullHold .hover, .gridWrap .fullHold .fInerImg {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0; }
-  .gridWrap .singleHold .front, .gridWrap .singleHolds .front, .gridWrap .dobleHold .front {
+  .gridWrap .singleHold .front, .gridWrap .singleHolds .front, .gridWrap .dobleHold .front, .gridWrap .fullHold .front {
     background-color: #171717; }
-    .gridWrap .singleHold .front .fInerImg, .gridWrap .singleHolds .front .fInerImg, .gridWrap .dobleHold .front .fInerImg {
+    .gridWrap .singleHold .front .fInerImg, .gridWrap .singleHolds .front .fInerImg, .gridWrap .dobleHold .front .fInerImg, .gridWrap .fullHold .front .fInerImg {
       background-position: center;
       background-repeat: no-repeat; }
-  .gridWrap .singleHold .hover, .gridWrap .singleHolds .hover, .gridWrap .dobleHold .hover {
+  .gridWrap .singleHold .hover, .gridWrap .singleHolds .hover, .gridWrap .dobleHold .hover, .gridWrap .fullHold .hover {
     opacity: 0;
     overflow: hidden; }
-    .gridWrap .singleHold .hover .inerImg, .gridWrap .singleHolds .hover .inerImg, .gridWrap .dobleHold .hover .inerImg {
+    .gridWrap .singleHold .hover .inerImg, .gridWrap .singleHolds .hover .inerImg, .gridWrap .dobleHold .hover .inerImg, .gridWrap .fullHold .hover .inerImg {
       width: 110%;
       height: 110%;
       position: absolute;

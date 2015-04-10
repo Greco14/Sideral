@@ -111,6 +111,16 @@ GalleryLoad.prototype.callingAjax = function(galleryId){
           items.push(fill);
         
       }
+      if(type == 'full'){
+        // console.log('singles: '+ data.id +' '+data.location);
+        fill = '<div id="h'+data.id +'-home" class="fullHold holdGrid">'+
+            '<div class="front" style="background-color:'+color+'">'+
+              '<div style="background-image:url('+data.location+')" class="fInerImg"></div>'+
+            '</div>'+
+          '</div>';
+          items.push(fill);
+        
+      }
       if(type == 'complex'){
         // console.log('singles: '+ data.id +' '+data.inerImages[0].location+' '+data.inerImages[1].location);
         fill = '<div class="singleHolder">'+
